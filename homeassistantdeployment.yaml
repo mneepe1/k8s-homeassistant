@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
       - name: homeassistant
-        image: homeassistant/home-assistant:0.84.5
+        image: homeassistant/home-assistant:latest
         ports:
         - containerPort: 8123
         volumeMounts:
